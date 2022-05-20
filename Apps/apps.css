@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Quicksand:wght@300&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: whitesmoke;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: sticky;
+    top: 0;
+    font-family: 'Fira Sans' , sans-serif;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: #1abc9c;
+    color: white;
+}
+nav ul li  {
+    padding: 0 12px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.brand img {
+    width: 25px;
+    padding: 0 8px;
+}
+.text {
+    font-family: 'Quicksand', sans-serif;;
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+}
+
+.discription {
+    vertical-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Fira Sans' , sans-serif;
+    padding: 10px;
+}
+.discription h3 {
+    text-align: center;
+}
+span {
+    font-family: 'Quicksand', sans-serif;
+    color: #1abc9c;
+    font-weight: bold;
+    padding: 25px;
+}
+.allapps {
+    padding: 10px 20px;
+    font-family: 'Fira Sans' , sans-serif;
+}
+.allapps ul {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth ;
+}
+.allapps ul li {
+    list-style-type: none;
+    padding-left: 20px;
+    text-align: center;
+}
+.allapps ul li a {
+    text-decoration: none;
+
+}
+.allapps ul li img {
+    border-radius: 50px;
+    height: 150px;
+}
+.ottapps {
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px 20px;
+}
+.ottapps ul {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.ottapps ul li {
+    list-style-type: none;
+    padding-left: 20px;
+    text-align: center;
+}
+.ottapps ul li a {
+    text-decoration: none;
+}
+.ottapps ul li img {
+    height: 150px;
+    border-radius: 50px;
+}
+.note {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Fira Sans' , sans-serif;
+    padding: 10px;
+}
+.note h3 {
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+}
+
+
+
+
+#footer {
+    font-family: 'Fira Sans' , sans-serif;
+    background-color: #2f2f2f;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+#footer h4 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  #footer p {
+    color: white;
+  }
+  .column {
+    min-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .container a {
+      color: #1abc9c;
+      text-decoration: none;
+    }
+    a:hover {
+        color: #F6A623;
+    }
+    #btn {
+        color: #1abc9c;
+        background-color: #2f2f2f;
+        border: 2px solid #1abc9c;
+        padding: 5px 5px;
+        border-radius: 10px;
+  }
+  #right {
+      color: rgb(169, 170, 172);
+    text-align: center;
+    padding-right:10px;
+    letter-spacing: 0.4em;
+  }
