@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Quicksand:wght@300&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: whitesmoke;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: sticky;
+    top: 0;
+    font-family: 'Fira Sans' , sans-serif;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: #1abc9c;
+    color: white;
+}
+nav ul li {
+    padding: 0 12px;
+}
+
+
+.brand img {
+    width: 25px;
+    padding: 0 8px;
+}
+.text {
+    font-family: 'Quicksand', sans-serif;;
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+}
+.welcome {
+    font-family: 'Quicksand' , sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.discription {
+    vertical-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Fira Sans' , sans-serif;
+    padding: 10px;
+}
+.discription h3 {
+    text-align: center;
+}
+.discription a {
+    text-align: center;
+}
+.discription a button {
+    font-size: 15px;
+    color: white;
+    background-color: #1abc9c;
+    border: 0px solid #1abc9c;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.discription2 {
+    vertical-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Fira Sans' , sans-serif;
+    padding: 10px;
+}
+.discription2 h3 {
+    text-align: center;
+}
+.note {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Fira Sans' , sans-serif;
+    padding: 10px;
+}
+.note h3 {
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+}
+
+
+
+
+#footer {
+    font-family: 'Fira Sans' , sans-serif;
+    background-color: #2f2f2f;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+#footer h4 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  #footer p {
+    color: white;
+  }
+  .column {
+    min-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  a {
+      color: #1abc9c;
+      text-decoration: none;
+    }
+    a:hover {
+        color: #F6A623;
+    }
+    #btn {
+        color: #1abc9c;
+        background-color: #2f2f2f;
+        border: 2px solid #1abc9c;
+        padding: 5px 5px;
+        border-radius: 10px;
+  }
+  #right {
+    text-align: center;
+    padding-right:10px;
+    letter-spacing: 0.2em;
+  }
