@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Quicksand:wght@300&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(200, 200, 200);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: sticky;
+    top: 0;
+    font-family: 'Fira Sans' , sans-serif;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: #1abc9c;
+    color: white;
+}
+nav ul li  {
+    padding: 0 12px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.brand img {
+    width: 25px;
+    padding: 0 8px;
+}
+
+
+#container1 {
+    height: auto;
+    background-color: #2f2f2f;
+}
+#modinfo {
+    background-color: #2f2f2f;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+#modinfo img {
+    height: 100px;
+    border-radius: 25px;
+}
+#modinfo span {
+    font-size: 30px;
+    letter-spacing: 0.15em;
+    padding: 0 15px;
+    color: #1abc9c;
+}
+#modinfo h4 {
+    color: white;
+}
+#button {
+    padding: 15px;
+    
+}
+#button a {
+    font-weight: bold;
+    color:#1abc9c;
+    border: #1abc9c solid 2px;
+    border-radius: 50px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+}
+.categ {
+    font-family: 'Fira Sana', sans-serif;
+    font-size: 13px;
+    margin-right: 5px;
+    color: rgb(145, 145, 145);
+    letter-spacing: 2px;
+    width: 350px;
+    text-align: center;
+    float: right;
+}
+#modfeature {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+#modfeature h1 {
+    text-align: center;
+}
+
+#aboutapp {
+    color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    padding: 5px 20px;  
+}
+
+#container2 {
+    height: auto;
+    color: rgb(0, 0, 0);
+}
+#container2 h1 {
+    text-align: center;
+    padding: 50px;
+}
+#description {
+    padding: 0 50px 20px 50px;
+    
+}
+.source {
+    font-size: 13px;
+    padding: 25px 0;
+    float: right;
+}
+#footer {
+    font-family: 'Fira Sans' , sans-serif;
+    background-color: #2f2f2f;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+#footer h4 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  #footer p {
+    color: white;
+  }
+  .column {
+    min-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .container a {
+      color: #1abc9c;
+      text-decoration: none;
+    }
+    a:hover {
+        color: #F6A623;
+    }
+    #btn {
+        color: #1abc9c;
+        background-color: #2f2f2f;
+        border: 2px solid #1abc9c;
+        padding: 5px 5px;
+        border-radius: 10px;
+  }
+  #right {
+      color: rgb(169, 170, 172);
+    text-align: center;
+    padding-right:10px;
+    letter-spacing: 0.4em;
+  }
